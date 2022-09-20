@@ -16,7 +16,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./testimonial-grid.jpg)
+![](./images/screenshot.jpg)
 
 
 ### Links
@@ -51,7 +50,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -80,9 +79,9 @@ Users should be able to:
 - CSS Grid
 - Desktop-first workflow
 
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
+
 
 ### What I learned
 
