@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/kibiwotkosgei/testimonials-grid.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub pages](https://kibiwotkosgei.github.io/testimonials-grid/)
 
 ## My process
 
@@ -97,8 +97,8 @@ I would like to keep practising working with grid property in the near future.Al
 
 ### Useful resources
 
-- [w3schools](https://www.w3schools.com) - This helped me in working on pushing a row to the far end. I really liked it and will use it going forward.
-- [developer.mozilla.org](https://developer.mozilla.org/) - I am still learning the great concepts I learned from this great website.
+- [w3schools](https://www.w3schools.com/cssref/pr_background-image.asp) - This helped me in working on pushing a row to the far end and also using image background in my css. I really liked it and will use it going forward.
+- [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end) - I am still learning the great concepts I learned from this great website.
 
 
 
