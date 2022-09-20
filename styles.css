@@ -6,126 +6,120 @@
   padding: 0;
 }
 
-body{
-font-family: "Barlow Semi Condensed", sans-serif;
-font-size: 13px;
-background: var(--Lightgrayishblue);
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  background: var(--Lightgrayishblue);
 }
 
-:root{
-    --Moderateviolet: hsl(263, 55%, 52%);
-    --Verydarkgrayishblue: hsl(217, 19%, 35%);
-    --Verydarkblackishblue: hsl(219, 29%, 14%);
-    --White: hsl(0, 0%, 100%);
-    
-    --Lightgray: hsl(0, 0%, 81%);
-    --Lightgrayishblue: hsl(210, 46%, 95%);
+:root {
+  --Moderateviolet: hsl(263, 55%, 52%);
+  --Verydarkgrayishblue: hsl(217, 19%, 35%);
+  --Verydarkblackishblue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
 
+  --Lightgray: hsl(0, 0%, 81%);
+  --Lightgrayishblue: hsl(210, 46%, 95%);
 }
-.header{
-    display: flex; 
-    gap: 15px;
-
+.header {
+  display: flex;
+  gap: 15px;
 }
 .testimonyimage img {
-    border-radius: 50%;
-    border:20%;
+  border-radius: 50%;
+  border: 20%;
 }
-.names h1{
-    font-size: 13px;
+.names h1 {
+  font-size: 13px;
 }
-.names h2{
-    line-height: 20px;
-    font-size: 11px;
-    opacity: 50%;
+.names h2 {
+  line-height: 20px;
+  font-size: 11px;
+  opacity: 50%;
 }
-.names{
-    padding-top: 9px;
-}
-
-.firstparagraph{
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 20px;
-     
+.names {
+  padding-top: 9px;
 }
 
-.secondparagraph{
-    font-weight: 500;
-    opacity: 70%;
-    line-height: 20px;
-
+.firstparagraph {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-.grid-container{
-    display: grid;
-   
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, .5fr);
-    max-width: 1200px;
-    margin: 5% auto;
-   
-}
-.grid-item{
-    border-radius: 10px;
-    padding: 23px;
-    margin: 20px;    
-
+.secondparagraph {
+  font-weight: 500;
+  opacity: 70%;
+  line-height: 20px;
 }
 
-.grid-item-1{
-    background: url("./images/bg-pattern-quotation.svg")    no-repeat top right 20%;
-    background-color: var(--Moderateviolet);
-    color: var(--White);
-    grid-column-start: 1;
-    grid-column-end: 3;
-    
-    }  
+.grid-container {
+  display: grid;
 
-.grid-item-2{
-background-color:var(--Verydarkgrayishblue) ;
-color: var(--White);
-grid-column-start: 3;
-grid-column-end: 4;
-
-
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 0.5fr);
+  max-width: 1200px;
+  margin: 5% auto;
 }
-.grid-item-3{
-background-color: var(--White);
-color:var(--Verydarkgrayishblue) ;
-grid-column-start: 1;
-grid-column-end: 2;
-}       
-
-.grid-item-4{
-background-color: var(--Verydarkblackishblue);
-color: var(--White);
-grid-column-start: 2;
-grid-column-end: 4;
+.grid-item {
+  border-radius: 10px;
+  padding: 23px;
+  margin: 20px;
 }
 
-.grid-item-5{
-background-color: var(--White);
-color:var(--Verydarkgrayishblue);
-grid-column-start: 4;
-grid-column-end: 5;
-grid-row-start: 1;
-grid-row-end: 3;
- 
- } 
-    
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-@media only screen and (max-width:750px){
-    .grid-container{
-        display: block;      
-    }
-
-    .grid-item{
-        max-width: 450px;
-        width: 90%;
-        margin: 2rem auto;
-    }
+.grid-item-1 {
+  background: url("./images/bg-pattern-quotation.svg") no-repeat top right 20%;
+  background-color: var(--Moderateviolet);
+  color: var(--White);
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
+.grid-item-2 {
+  background-color: var(--Verydarkgrayishblue);
+  color: var(--White);
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.grid-item-3 {
+  background-color: var(--White);
+  color: var(--Verydarkgrayishblue);
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-4 {
+  background-color: var(--Verydarkblackishblue);
+  color: var(--White);
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.grid-item-5 {
+  background-color: var(--White);
+  color: var(--Verydarkgrayishblue);
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 750px) {
+  .grid-container {
+    display: block;
+  }
+
+  .grid-item {
+    max-width: 450px;
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
